@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Acudir.Test.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Acudir.Test.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Acudir.Test.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Acudir.Test.Application.dll": {}
+        }
+      },
+      "Acudir.Test.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Acudir.Test.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Acudir.Test.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Acudir.Test.Application/1.0.0": {
+      "type": "project",
+      "path": "../Acudir.Test.Application/Acudir.Test.Application.csproj",
+      "msbuildProject": "../Acudir.Test.Application/Acudir.Test.Application.csproj"
+    },
+    "Acudir.Test.Core/1.0.0": {
+      "type": "project",
+      "path": "../Acudir.Test.Core/Acudir.Test.Core.csproj",
+      "msbuildProject": "../Acudir.Test.Core/Acudir.Test.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Acudir.Test.Application >= 1.0.0",
+      "Acudir.Test.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\aleja\\.nuget\\packages\\": {}
@@ -33,7 +71,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\aleja\\OneDrive\\Escritorio\\Test Acudir\\TEST-ACUDIR\\Acudir.Test.Application\\Acudir.Test.Application.csproj": {
+              "projectPath": "C:\\Users\\aleja\\OneDrive\\Escritorio\\Test Acudir\\TEST-ACUDIR\\Acudir.Test.Application\\Acudir.Test.Application.csproj"
+            },
+            "C:\\Users\\aleja\\OneDrive\\Escritorio\\Test Acudir\\TEST-ACUDIR\\Acudir.Test.Core\\Acudir.Test.Core.csproj": {
+              "projectPath": "C:\\Users\\aleja\\OneDrive\\Escritorio\\Test Acudir\\TEST-ACUDIR\\Acudir.Test.Core\\Acudir.Test.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

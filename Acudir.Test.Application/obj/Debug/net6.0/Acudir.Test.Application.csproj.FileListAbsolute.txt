@@ -1,0 +1,15 @@
+C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.Application\bin\Debug\net6.0\Acudir.Test.Application.deps.json
+C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.Application\bin\Debug\net6.0\Acudir.Test.Application.dll
+C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.Application\bin\Debug\net6.0\Acudir.Test.Application.pdb
+C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.Application\bin\Debug\net6.0\Acudir.Test.Core.dll
+C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.Application\bin\Debug\net6.0\Acudir.Test.Core.pdb
+C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.Application\obj\Debug\net6.0\Acudir.Test.Application.csproj.AssemblyReference.cache
+C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.Application\obj\Debug\net6.0\Acudir.Test.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.Application\obj\Debug\net6.0\Acudir.Test.Application.AssemblyInfoInputs.cache
+C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.Application\obj\Debug\net6.0\Acudir.Test.Application.AssemblyInfo.cs
+C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.Application\obj\Debug\net6.0\Acudir.Test.Application.csproj.CoreCompileInputs.cache
+C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.Application\obj\Debug\net6.0\Acudir.Test.Application.csproj.CopyComplete
+C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.Application\obj\Debug\net6.0\Acudir.Test.Application.dll
+C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.Application\obj\Debug\net6.0\refint\Acudir.Test.Application.dll
+C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.Application\obj\Debug\net6.0\Acudir.Test.Application.pdb
+C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.Application\obj\Debug\net6.0\ref\Acudir.Test.Application.dll

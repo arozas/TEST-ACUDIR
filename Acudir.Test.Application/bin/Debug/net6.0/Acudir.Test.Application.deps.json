@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Acudir.Test.Application/1.0.0": {
+        "dependencies": {
+          "Acudir.Test.Core": "1.0.0"
+        },
+        "runtime": {
+          "Acudir.Test.Application.dll": {}
+        }
+      },
+      "Acudir.Test.Core/1.0.0": {
+        "runtime": {
+          "Acudir.Test.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Acudir.Test.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Acudir.Test.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

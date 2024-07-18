@@ -28,4 +28,9 @@
     </Content>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Acudir.Test.Application\Acudir.Test.Application.csproj" />
+    <ProjectReference Include="..\Acudir.Test.Infrastructure\Acudir.Test.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

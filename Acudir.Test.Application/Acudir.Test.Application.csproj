@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Acudir.Test.Core\Acudir.Test.Core.csproj" />
+    </ItemGroup>
+
 </Project>
