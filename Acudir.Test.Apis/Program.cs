@@ -13,7 +13,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Configuración de AutoMapper
-builder.Services.AddAutoMapper(typeof(PersonMappingProfile).Assembly);
+builder.Services.AddAutoMapper(typeof(Program).Assembly);
 
 // Configuración de MediatR
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(GetAllPersonsHandler).Assembly));
@@ -34,7 +34,7 @@ personContext.LoadData();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Person.API - v1"));
 }
 
 app.UseHttpsRedirection();

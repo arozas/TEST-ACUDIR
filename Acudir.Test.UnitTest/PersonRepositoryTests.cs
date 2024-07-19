@@ -1,15 +1,11 @@
-using NUnit.Framework;
-using Microsoft.EntityFrameworkCore;
-using Acudir.Test.Core.Entities;
+﻿using Acudir.Test.Core.Entities;
+using Acudir.Test.Core.Interfaces;
 using Acudir.Test.Infrastructure.Data;
 using Acudir.Test.Infrastructure.Interfaces;
 using Acudir.Test.Infrastructure.Repositories;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using System.Linq;
-using Acudir.Test.Core.Interfaces;
+using Microsoft.EntityFrameworkCore;
 
-namespace TestProject1
+namespace Acudir.Test.UnitTest
 {
     public class PersonRepositoryTests
     {
@@ -28,6 +24,18 @@ namespace TestProject1
 
             // Cargar datos iniciales si es necesario
             _context.LoadData();
+        }
+        
+        [Test]
+        public async Task GetPerson_ShouldGetPerson()
+        {
+            // Arrange
+            var person = await _repository.Get(1);
+
+            // Assert
+            Assert.IsNotNull(person);
+            Assert.AreEqual("Ramon Perez", person.NombreCompleto);
+            Assert.AreNotEqual("Rita Pavone", person.NombreCompleto);
         }
 
         [Test]

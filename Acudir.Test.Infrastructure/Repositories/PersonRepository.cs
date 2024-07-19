@@ -3,6 +3,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Acudir.Test.Core.Entities;
 using Acudir.Test.Core.Interfaces;
+using Acudir.Test.Infrastructure.Data;
 using Acudir.Test.Infrastructure.Interfaces;
 using Microsoft.EntityFrameworkCore;
 

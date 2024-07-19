@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "2Qk7TR4BC0HtqtkHQzBLlXzJvS+rSKwGpo4BLHSzQsZEuDztCGDeOj05Wrg0urzKmYLCPTw4aLtt3nw9AK3yfA==",
+  "dgSpecHash": "N7/Y+c6xAP7lfbZvTnVyrnRtMNzDh7elXOm8LeXCGqyi2Dp4R+r1XOEYvsTq+4h8Di1GBdQAxvWrogYzw+f2Pg==",
   "success": true,
   "projectFilePath": "C:\\Users\\aleja\\OneDrive\\Escritorio\\Test Acudir\\TEST-ACUDIR\\Acudir.Test.UnitTest\\Acudir.Test.UnitTest.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\aleja\\.nuget\\packages\\asp.versioning.abstractions\\6.2.1\\asp.versioning.abstractions.6.2.1.nupkg.sha512",
+    "C:\\Users\\aleja\\.nuget\\packages\\asp.versioning.http\\6.4.0\\asp.versioning.http.6.4.0.nupkg.sha512",
+    "C:\\Users\\aleja\\.nuget\\packages\\asp.versioning.mvc\\6.4.0\\asp.versioning.mvc.6.4.0.nupkg.sha512",
+    "C:\\Users\\aleja\\.nuget\\packages\\asp.versioning.mvc.apiexplorer\\6.4.0\\asp.versioning.mvc.apiexplorer.6.4.0.nupkg.sha512",
     "C:\\Users\\aleja\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\aleja\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\aleja\\.nuget\\packages\\mediatr\\12.3.0\\mediatr.12.3.0.nupkg.sha512",
