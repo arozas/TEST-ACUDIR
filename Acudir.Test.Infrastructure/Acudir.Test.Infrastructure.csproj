@@ -11,4 +11,15 @@
       <ProjectReference Include="..\Acudir.Test.Core\Acudir.Test.Core.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Update="Data\SeedData\Test.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.20" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="7.0.20" />
+    </ItemGroup>
+
 </Project>
