@@ -10,43 +10,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1db62c9c-68bf-4bc5-ab03-5ca7e238762e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Acudir.Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Acudir.Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.Apis/Controllers/PersonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Apis/Controllers/PersonController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.Apis/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Apis/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.Apis/Test.json" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Apis/Test.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.Application/Handlers/CreatePersonHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Application/Handlers/CreatePersonHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.Application/Handlers/GetAllPersonsHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Application/Handlers/GetAllPersonsHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.Application/Mappers/PersonMappingProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Application/Mappers/PersonMappingProfile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.Application/Queries/GetAllPersonsQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Application/Queries/GetAllPersonsQuery.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.Application/bin/Debug/net6.0/Acudir.Test.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Application/bin/Debug/net6.0/Acudir.Test.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.Application/bin/Debug/net6.0/Acudir.Test.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Application/bin/Debug/net6.0/Acudir.Test.Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.Application/obj/Debug/net6.0/Acudir.Test.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Application/obj/Debug/net6.0/Acudir.Test.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.Application/obj/Debug/net6.0/Acudir.Test.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Application/obj/Debug/net6.0/Acudir.Test.Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.Application/obj/Debug/net6.0/ref/Acudir.Test.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Application/obj/Debug/net6.0/ref/Acudir.Test.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.Application/obj/Debug/net6.0/refint/Acudir.Test.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Application/obj/Debug/net6.0/refint/Acudir.Test.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.Infrastructure/Data/PersonContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Infrastructure/Data/PersonContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.Infrastructure/Repositories/PersonRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Infrastructure/Repositories/PersonRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.Infrastructure/bin/Debug/net6.0/Acudir.Test.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Infrastructure/bin/Debug/net6.0/Acudir.Test.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.Infrastructure/bin/Debug/net6.0/Acudir.Test.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Infrastructure/bin/Debug/net6.0/Acudir.Test.Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.Infrastructure/bin/Debug/net6.0/Acudir.Test.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Infrastructure/bin/Debug/net6.0/Acudir.Test.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.Infrastructure/bin/Debug/net6.0/Acudir.Test.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Infrastructure/bin/Debug/net6.0/Acudir.Test.Infrastructure.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Acudir.Test.Infrastructure/obj/Debug/net6.0/Acudir.Test.Infrastructure.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Infrastructure/obj/Debug/net6.0/Acudir.Test.Infrastructure.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.Infrastructure/obj/Debug/net6.0/Acudir.Test.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Infrastructure/obj/Debug/net6.0/Acudir.Test.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.Infrastructure/obj/Debug/net6.0/Acudir.Test.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Infrastructure/obj/Debug/net6.0/Acudir.Test.Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.Infrastructure/obj/Debug/net6.0/ref/Acudir.Test.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Infrastructure/obj/Debug/net6.0/ref/Acudir.Test.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.Infrastructure/obj/Debug/net6.0/refint/Acudir.Test.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Infrastructure/obj/Debug/net6.0/refint/Acudir.Test.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.UnitTest/PersonRepositoryTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.UnitTest/PersonRepositoryTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.UnitTest/Test.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.UnitTest/bin/Debug/net6.0/Acudir.Test.Apis.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.UnitTest/bin/Debug/net6.0/Acudir.Test.Apis.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.UnitTest/bin/Debug/net6.0/Acudir.Test.Apis.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.UnitTest/bin/Debug/net6.0/Acudir.Test.Apis.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.UnitTest/bin/Debug/net6.0/Acudir.Test.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.UnitTest/bin/Debug/net6.0/Acudir.Test.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.UnitTest/bin/Debug/net6.0/Acudir.Test.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.UnitTest/bin/Debug/net6.0/Acudir.Test.Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.UnitTest/bin/Debug/net6.0/Acudir.Test.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.UnitTest/bin/Debug/net6.0/Acudir.Test.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.UnitTest/bin/Debug/net6.0/Acudir.Test.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.UnitTest/bin/Debug/net6.0/Acudir.Test.Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.UnitTest/bin/Debug/net6.0/Acudir.Test.UnitTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.UnitTest/bin/Debug/net6.0/Acudir.Test.UnitTest.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.UnitTest/bin/Debug/net6.0/Acudir.Test.UnitTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.UnitTest/bin/Debug/net6.0/Acudir.Test.UnitTest.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Acudir.Test.UnitTest/obj/Debug/net6.0/Acudir.Test.UnitTest.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.UnitTest/obj/Debug/net6.0/Acudir.Test.UnitTest.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.UnitTest/obj/Debug/net6.0/Acudir.Test.UnitTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.UnitTest/obj/Debug/net6.0/Acudir.Test.UnitTest.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.UnitTest/obj/Debug/net6.0/Acudir.Test.UnitTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.UnitTest/obj/Debug/net6.0/Acudir.Test.UnitTest.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,27 +76,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.CSharpInteractiveConfiguration",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.CSharpInteractiveConfiguration&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\aleja\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\aleja\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\aleja\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\aleja\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\aleja\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\aleja\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Acudir.Test.Apis: GP.Test.Apis">
     <configuration name="Acudir.Test.Apis: GP.Test.Apis" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Acudir.Test.Apis/Acudir.Test.Apis.csproj" />
@@ -172,7 +137,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721341171973</updated>
-      <workItem from="1721341173280" duration="31778000" />
+      <workItem from="1721341173280" duration="32049000" />
+      <workItem from="1721376893647" duration="374000" />
     </task>
     <servers />
   </component>
