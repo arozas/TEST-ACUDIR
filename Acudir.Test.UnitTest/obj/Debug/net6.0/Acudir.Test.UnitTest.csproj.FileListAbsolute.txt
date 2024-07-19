@@ -11,7 +11,6 @@ C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.UnitTest\
 C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.UnitTest\bin\Debug\net6.0\nunit.engine.api.dll
 C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.UnitTest\bin\Debug\net6.0\nunit.engine.core.dll
 C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.UnitTest\bin\Debug\net6.0\testcentric.engine.metadata.dll
-C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.UnitTest\bin\Debug\net6.0\Data\SeedData\Test.json
 C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.UnitTest\bin\Debug\net6.0\appsettings.json
 C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.UnitTest\bin\Debug\net6.0\Acudir.Test.UnitTest.deps.json
 C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.UnitTest\bin\Debug\net6.0\Acudir.Test.UnitTest.runtimeconfig.json

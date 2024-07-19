@@ -12,10 +12,13 @@ namespace Acudir.Test.Infrastructure.Data
     public class PersonContext : DbContext, IPersonContext
     {
         public DbSet<Person> Persons { get; set; }
-        
+        private readonly string _filePath;
+
         public PersonContext(DbContextOptions<PersonContext> options) : base(options)
         {
-            
+            //_filePath = "Test.json";
+            _filePath = "./Test.json";
+                
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -28,15 +31,15 @@ namespace Acudir.Test.Infrastructure.Data
             var entities = Persons.ToList();
             var jsonOptions = new JsonSerializerOptions { WriteIndented = true };
             var json = JsonSerializer.Serialize(entities, jsonOptions);
-            await File.WriteAllTextAsync("./Data/SeedData/Test.json", json);
+            await File.WriteAllTextAsync(_filePath, json);
             return await base.SaveChangesAsync(cancellationToken);
         }
 
         public void LoadData()
         {
-            if (File.Exists("./Data/SeedData/Test.json"))
+            if (File.Exists(_filePath))
             {
-                var json = File.ReadAllText("./Data/SeedData/Test.json");
+                var json = File.ReadAllText(_filePath);
                 var entities = JsonSerializer.Deserialize<List<Person>>(json);
                 if (entities != null)
                 {
@@ -50,6 +53,23 @@ namespace Acudir.Test.Infrastructure.Data
                     }
                 }
             }
+            else
+            {
+                var initialData = new List<Person>
+                {
+                    new Person { id = 1, NombreCompleto = "Ramon Perez", Edad = 45, Domicilio = "Av Segurola 1445", Telefono = "4533542", Profesion = "Escritor", Active = true },
+                    new Person { id = 2, NombreCompleto = "Rita Pavone", Edad = 78, Domicilio = "Mercedes 4112", Telefono = "45333442", Profesion = "Doctora", Active = true },
+                    new Person { id = 3, NombreCompleto = "Pedro Franco", Edad = 34, Domicilio = "Camarones 2343", Telefono = "44565432", Profesion = "Programador", Active = true }
+                };
+
+                var jsonOptions = new JsonSerializerOptions { WriteIndented = true };
+                var json = JsonSerializer.Serialize(initialData, jsonOptions);
+                File.WriteAllText(_filePath, json);
+
+                Persons.AddRange(initialData);
+                base.SaveChanges();
+            }
         }
+
     }
 }

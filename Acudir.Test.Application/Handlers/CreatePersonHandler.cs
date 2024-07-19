@@ -1,4 +1,5 @@
 ﻿using Acudir.Test.Application.Commands;
+using Acudir.Test.Application.Mappers;
 using Acudir.Test.Application.Responses;
 using Acudir.Test.Core.Entities;
 using Acudir.Test.Core.Interfaces;
@@ -12,10 +13,9 @@ public class CreatePersonHandler : IRequestHandler<CreatePersonCommand, PersonRe
     private readonly IPersonRepository _personRepository;
     private readonly IMapper _mapper;
 
-    public CreatePersonHandler(IPersonRepository personRepository, IMapper mapper)
+    public CreatePersonHandler(IPersonRepository personRepository)
     {
         _personRepository = personRepository;
-        _mapper = mapper;
     }
     
     public Task<PersonResponse> Handle(CreatePersonCommand request, CancellationToken cancellationToken)
@@ -27,7 +27,7 @@ public class CreatePersonHandler : IRequestHandler<CreatePersonCommand, PersonRe
         }
 
         var newPerson = _personRepository.Create(person);
-        var personResponse = _mapper.Map<PersonResponse>(newPerson);
+        var personResponse = LazyMapper.Mapper.Map<PersonResponse>(newPerson);
         
         if (personResponse is null)
         {

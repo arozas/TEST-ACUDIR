@@ -1,4 +1,5 @@
 ﻿using System.Data;
+using Acudir.Test.Application.Mappers;
 using Acudir.Test.Application.Queries;
 using Acudir.Test.Application.Responses;
 using Acudir.Test.Core.Interfaces;
@@ -11,12 +12,10 @@ public class GetPersonByIdHandler: IRequestHandler<GetPersonByIdQuery, PersonRes
 {
 
     private readonly IPersonRepository _personRepository;
-    private readonly IMapper _mapper;
 
-    public GetPersonByIdHandler(IPersonRepository personRepository, IMapper mapper)
+    public GetPersonByIdHandler(IPersonRepository personRepository)
     {
         _personRepository = personRepository;
-        _mapper = mapper;
     }
     
     public async Task<PersonResponse> Handle(GetPersonByIdQuery request, CancellationToken cancellationToken)
@@ -28,7 +27,7 @@ public class GetPersonByIdHandler: IRequestHandler<GetPersonByIdQuery, PersonRes
             throw new KeyNotFoundException($"Person with ID {request.Id} not found");
         }
 
-        var personResponse = _mapper.Map<PersonResponse>(person);
+        var personResponse = LazyMapper.Mapper.Map<PersonResponse>(person);
         
         return personResponse;
     }

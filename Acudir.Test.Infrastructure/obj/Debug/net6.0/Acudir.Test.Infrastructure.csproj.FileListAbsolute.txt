@@ -15,4 +15,3 @@ C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.Infrastru
 C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.Infrastructure\obj\Debug\net6.0\refint\Acudir.Test.Infrastructure.dll
 C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.Infrastructure\obj\Debug\net6.0\Acudir.Test.Infrastructure.pdb
 C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.Infrastructure\obj\Debug\net6.0\ref\Acudir.Test.Infrastructure.dll
-C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.Infrastructure\bin\Debug\net6.0\Data\SeedData\Test.json
