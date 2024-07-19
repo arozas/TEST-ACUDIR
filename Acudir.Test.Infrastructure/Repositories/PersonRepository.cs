@@ -47,7 +47,6 @@ namespace Acudir.Test.Infrastructure.Repositories
             existingPerson.Domicilio = person.Domicilio;
             existingPerson.Telefono = person.Telefono;
             existingPerson.Profesion = person.Profesion;
-            existingPerson.Active = person.Active;
 
             await _personContext.SaveChangesAsync();
             return true;

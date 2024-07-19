@@ -1,3 +1,5 @@
+using Acudir.Test.Application.Handlers;
+using Acudir.Test.Application.Mappers;
 using Acudir.Test.Core.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Acudir.Test.Infrastructure.Data;
@@ -10,6 +12,13 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Configuración de AutoMapper
+builder.Services.AddAutoMapper(typeof(PersonMappingProfile).Assembly);
+
+// Configuración de MediatR
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(GetAllPersonsHandler).Assembly));
+
+//Configuración de DBbaseMock.
 builder.Services.AddDbContext<PersonContext>(options =>
     options.UseInMemoryDatabase("InMemoryDb"));
 

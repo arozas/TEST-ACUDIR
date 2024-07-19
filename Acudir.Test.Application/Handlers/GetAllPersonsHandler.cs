@@ -21,8 +21,8 @@ public class GetAllPersonsHandler : IRequestHandler<GetAllPersonsQuery, IList<Pe
     
     public Task<IList<PersonResponse>> Handle(GetAllPersonsQuery request, CancellationToken cancellationToken)
     {
-        var PersonList = _personRepository.GetAll();
-        var PersonResponseList = _mapper.Map<IList<PersonResponse>>(PersonList);
-        return Task.FromResult(PersonResponseList);
+        var personList = _personRepository.GetAll();
+        var personResponseList = _mapper.Map<IList<PersonResponse>>(personList);
+        return Task.FromResult(personResponseList);
     }
 }

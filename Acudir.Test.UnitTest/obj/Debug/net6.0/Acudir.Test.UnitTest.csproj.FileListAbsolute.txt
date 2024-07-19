@@ -128,3 +128,6 @@ C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.UnitTest\
 C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.UnitTest\obj\Debug\net6.0\Acudir.Test.UnitTest.pdb
 C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.UnitTest\obj\Debug\net6.0\Acudir.Test.UnitTest.genruntimeconfig.cache
 C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.UnitTest\obj\Debug\net6.0\ref\Acudir.Test.UnitTest.dll
+C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.UnitTest\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.UnitTest\bin\Debug\net6.0\MediatR.dll
+C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.UnitTest\bin\Debug\net6.0\MediatR.Contracts.dll
