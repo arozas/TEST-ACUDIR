@@ -10,4 +10,13 @@
       <ProjectReference Include="..\Acudir.Test.Core\Acudir.Test.Core.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Commands\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="13.0.1" />
+      <PackageReference Include="MediatR" Version="12.3.0" />
+    </ItemGroup>
+
 </Project>
