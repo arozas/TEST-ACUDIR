@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acudir.Test.Core", "Acudir.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acudir.Test.Infrastructure", "Acudir.Test.Infrastructure\Acudir.Test.Infrastructure.csproj", "{7B6C770D-9FB1-406E-84BF-05D3E9434595}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acudir.Test.UnitTest", "Acudir.Test.UnitTest\Acudir.Test.UnitTest.csproj", "{AF71AB71-DF51-46BF-8659-2471DA86BFAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7B6C770D-9FB1-406E-84BF-05D3E9434595}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B6C770D-9FB1-406E-84BF-05D3E9434595}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B6C770D-9FB1-406E-84BF-05D3E9434595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF71AB71-DF51-46BF-8659-2471DA86BFAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF71AB71-DF51-46BF-8659-2471DA86BFAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF71AB71-DF51-46BF-8659-2471DA86BFAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF71AB71-DF51-46BF-8659-2471DA86BFAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,23 +1,35 @@
-
+using Acudir.Test.Core.Interfaces;
+using Microsoft.EntityFrameworkCore;
+using Acudir.Test.Infrastructure.Data;
+using Acudir.Test.Infrastructure.Interfaces;
+using Acudir.Test.Infrastructure.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
-// Add services to the container.
+
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var app = builder.Build();
-var dataTest = System.IO.File.ReadAllText(@"Test.json");
+builder.Services.AddDbContext<PersonContext>(options =>
+    options.UseInMemoryDatabase("InMemoryDb"));
 
-IWebHostEnvironment environment = app.Environment;
-// Configure the HTTP request pipeline.
+builder.Services.AddScoped<IPersonContext>(provider => provider.GetService<PersonContext>());
+
+builder.Services.AddScoped<IPersonRepository, PersonRepository>();
+
+var app = builder.Build();
+
+var personContext = app.Services.CreateScope().ServiceProvider.GetRequiredService<IPersonContext>();
+personContext.LoadData(); 
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
+
 app.Run();
