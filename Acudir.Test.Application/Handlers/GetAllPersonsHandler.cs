@@ -18,10 +18,10 @@ public class GetAllPersonsHandler : IRequestHandler<GetAllPersonsQuery, IList<Pe
         _personRepository = personRepository;
     }
     
-    public Task<IList<PersonResponse>> Handle(GetAllPersonsQuery request, CancellationToken cancellationToken)
+    public async Task<IList<PersonResponse>> Handle(GetAllPersonsQuery request, CancellationToken cancellationToken)
     {
-        var personList = _personRepository.GetAll();
+        var personList = await _personRepository.GetAll();
         var personResponseList = LazyMapper.Mapper.Map<IList<PersonResponse>>(personList);
-        return Task.FromResult(personResponseList);
+        return personResponseList;
     }
 }

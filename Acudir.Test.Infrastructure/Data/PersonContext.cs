@@ -14,10 +14,11 @@ namespace Acudir.Test.Infrastructure.Data
         public DbSet<Person> Persons { get; set; }
         private readonly string _filePath;
 
-        public PersonContext(DbContextOptions<PersonContext> options) : base(options)
+        public PersonContext(DbContextOptions<PersonContext> options, string filePath) : base(options)
         {
             //_filePath = "Test.json";
-            _filePath = "./Test.json";
+            _filePath = filePath;
+            //"C:/Users/aleja/OneDrive/Escritorio/Test Acudir/TEST-ACUDIR/Acudir.Test.Apis/Test.json";
                 
         }
 

@@ -9,32 +9,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1db62c9c-68bf-4bc5-ab03-5ca7e238762e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Acudir.Test.Application/Mappers/LazyMapper.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Acudir.Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Acudir.Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.Apis/Controllers/TestController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Acudir.Test.Apis/Controllers/PersonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Apis/Controllers/PersonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Acudir.Test.Apis/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Apis/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Acudir.Test.Apis/Test.json" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Apis/Test.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Acudir.Test.Application/Handlers/CreatePersonHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Application/Handlers/CreatePersonHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Acudir.Test.Application/Handlers/GetAllPersonsHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Application/Handlers/GetAllPersonsHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.Application/Handlers/GetPersonByIdHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Application/Handlers/GetPersonByIdHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Acudir.Test.Application/Mappers/PersonMappingProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Application/Mappers/PersonMappingProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Acudir.Test.Application/Queries/GetAllPersonsQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Application/Queries/GetAllPersonsQuery.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Acudir.Test.Application/bin/Debug/net6.0/Acudir.Test.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Application/bin/Debug/net6.0/Acudir.Test.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Acudir.Test.Application/bin/Debug/net6.0/Acudir.Test.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Application/bin/Debug/net6.0/Acudir.Test.Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.Application/obj/Debug/net6.0/Acudir.Test.Application.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Application/obj/Debug/net6.0/Acudir.Test.Application.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Acudir.Test.Application/obj/Debug/net6.0/Acudir.Test.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Application/obj/Debug/net6.0/Acudir.Test.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Acudir.Test.Application/obj/Debug/net6.0/Acudir.Test.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Application/obj/Debug/net6.0/Acudir.Test.Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Acudir.Test.Application/obj/Debug/net6.0/ref/Acudir.Test.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Application/obj/Debug/net6.0/ref/Acudir.Test.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Acudir.Test.Application/obj/Debug/net6.0/refint/Acudir.Test.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Application/obj/Debug/net6.0/refint/Acudir.Test.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Acudir.Test.Infrastructure/Data/PersonContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Infrastructure/Data/PersonContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.Infrastructure/Data/SeedData/Test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Acudir.Test.Infrastructure/Repositories/PersonRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Infrastructure/Repositories/PersonRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Acudir.Test.Infrastructure/bin/Debug/net6.0/Acudir.Test.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Infrastructure/bin/Debug/net6.0/Acudir.Test.Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Acudir.Test.Infrastructure/bin/Debug/net6.0/Acudir.Test.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Infrastructure/bin/Debug/net6.0/Acudir.Test.Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Acudir.Test.Infrastructure/bin/Debug/net6.0/Acudir.Test.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Infrastructure/bin/Debug/net6.0/Acudir.Test.Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Acudir.Test.Infrastructure/bin/Debug/net6.0/Acudir.Test.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Infrastructure/bin/Debug/net6.0/Acudir.Test.Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.Infrastructure/bin/Debug/net6.0/Data/SeedData/Test.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Acudir.Test.Infrastructure/obj/Debug/net6.0/Acudir.Test.Infrastructure.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Infrastructure/obj/Debug/net6.0/Acudir.Test.Infrastructure.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.Infrastructure/obj/Debug/net6.0/Acudir.Test.Infrastructure.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Infrastructure/obj/Debug/net6.0/Acudir.Test.Infrastructure.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Acudir.Test.Infrastructure/obj/Debug/net6.0/Acudir.Test.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Infrastructure/obj/Debug/net6.0/Acudir.Test.Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Acudir.Test.Infrastructure/obj/Debug/net6.0/Acudir.Test.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Infrastructure/obj/Debug/net6.0/Acudir.Test.Infrastructure.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Acudir.Test.Infrastructure/obj/Debug/net6.0/ref/Acudir.Test.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Infrastructure/obj/Debug/net6.0/ref/Acudir.Test.Infrastructure.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Acudir.Test.Infrastructure/obj/Debug/net6.0/refint/Acudir.Test.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.Infrastructure/obj/Debug/net6.0/refint/Acudir.Test.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Acudir.Test.UnitTest/PersonRepositoryTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.UnitTest/PersonRepositoryTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Acudir.Test.UnitTest/Test.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Acudir.Test.UnitTest/bin/Debug/net6.0/Acudir.Test.Apis.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.UnitTest/bin/Debug/net6.0/Acudir.Test.Apis.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Acudir.Test.UnitTest/bin/Debug/net6.0/Acudir.Test.Apis.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.UnitTest/bin/Debug/net6.0/Acudir.Test.Apis.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Acudir.Test.UnitTest/bin/Debug/net6.0/Acudir.Test.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.UnitTest/bin/Debug/net6.0/Acudir.Test.Application.dll" afterDir="false" />
@@ -43,9 +44,7 @@
       <change beforePath="$PROJECT_DIR$/Acudir.Test.UnitTest/bin/Debug/net6.0/Acudir.Test.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.UnitTest/bin/Debug/net6.0/Acudir.Test.Infrastructure.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Acudir.Test.UnitTest/bin/Debug/net6.0/Acudir.Test.UnitTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.UnitTest/bin/Debug/net6.0/Acudir.Test.UnitTest.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Acudir.Test.UnitTest/bin/Debug/net6.0/Acudir.Test.UnitTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.UnitTest/bin/Debug/net6.0/Acudir.Test.UnitTest.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.UnitTest/bin/Debug/net6.0/Data/SeedData/Test.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Acudir.Test.UnitTest/obj/Debug/net6.0/Acudir.Test.UnitTest.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.UnitTest/obj/Debug/net6.0/Acudir.Test.UnitTest.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acudir.Test.UnitTest/obj/Debug/net6.0/Acudir.Test.UnitTest.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.UnitTest/obj/Debug/net6.0/Acudir.Test.UnitTest.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Acudir.Test.UnitTest/obj/Debug/net6.0/Acudir.Test.UnitTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.UnitTest/obj/Debug/net6.0/Acudir.Test.UnitTest.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Acudir.Test.UnitTest/obj/Debug/net6.0/Acudir.Test.UnitTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Acudir.Test.UnitTest/obj/Debug/net6.0/Acudir.Test.UnitTest.pdb" afterDir="false" />
     </list>
@@ -62,6 +61,32 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1e8feaadf5c3fa14d36ea2a638c432a2e1a47b7837d8b83d88303c5d9c15cf/AsyncValueTaskMethodBuilderT.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/575c31ecc35a636b6f962cb71d53992552941a18982aae1c8e6c16305cc3761b/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/621526284d3e4868b98948aff942206525763e57e194a27623b66c384466/ServiceProviderServiceExtensions.cs" root0="SKIP_HIGHLIGHTING" />
@@ -71,6 +96,8 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/aacc74311ca994f12b71cddb22241be9d6654c65e94f5985c5488dee396916f/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c6ad457575d35dcbff26c9a5e3fb1d92f1d3c55f25ef6ebf475367b5d8/List.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c9ca552eea9bb8fababbf1cd3f981cf68849ccc365dcca5627376f98e505c74/ControllerActionInvoker.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f4bc324a395d24ed12db75b0a81536b642509aa14825bf114d9b7c934e2b/Mediator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f9daeeaab8409865442b5e80e634dc64dae9a14892fe81e0f17b46f51b2c48f8/DbSet.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/aleja/OneDrive/Escritorio/Test Acudir/TEST-ACUDIR/Acudir.Test.Apis/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/aleja/OneDrive/Escritorio/Test Acudir/TEST-ACUDIR/Acudir.Test.Infrastructure/Data/PersonContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/aleja/OneDrive/Escritorio/Test Acudir/TEST-ACUDIR/Acudir.Test.Infrastructure/Repositories/PersonRepository.cs" root0="SKIP_HIGHLIGHTING" />
@@ -145,7 +172,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721341171973</updated>
-      <workItem from="1721341173280" duration="24866000" />
+      <workItem from="1721341173280" duration="31778000" />
     </task>
     <servers />
   </component>
@@ -159,7 +186,7 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+        <line-breakpoint type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Acudir.Test.Application/Handlers/GetPersonByIdHandler.cs</url>
           <line>21</line>
           <properties documentPath="C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.Application\Handlers\GetPersonByIdHandler.cs" initialLine="20" containingFunctionPresentation="Method 'Handle'">
@@ -172,7 +199,7 @@
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+        <line-breakpoint type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Acudir.Test.Infrastructure/Repositories/PersonRepository.cs</url>
           <line>16</line>
           <properties documentPath="C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.Infrastructure\Repositories\PersonRepository.cs" initialLine="16" containingFunctionPresentation="Constructor 'PersonRepository'">
@@ -185,31 +212,44 @@
           </properties>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+        <line-breakpoint type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Acudir.Test.UnitTest/PersonRepositoryTests.cs</url>
           <line>93</line>
           <properties documentPath="C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.UnitTest\PersonRepositoryTests.cs" initialLine="93" containingFunctionPresentation="Method 'DeletePerson_ShouldRemovePerson'">
             <startOffsets>
-              <option value="2769" />
+              <option value="2863" />
             </startOffsets>
             <endOffsets>
-              <option value="2770" />
+              <option value="2864" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Acudir.Test.Apis/Controllers/PersonController.cs</url>
+          <url>file://$PROJECT_DIR$/Acudir.Test.Application/Handlers/CreatePersonHandler.cs</url>
           <line>21</line>
-          <properties documentPath="C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.Apis\Controllers\PersonController.cs" initialLine="21" containingFunctionPresentation="Method 'GetPersonById'">
+          <properties documentPath="C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.Application\Handlers\CreatePersonHandler.cs" initialLine="21" containingFunctionPresentation="Method 'Handle'">
             <startOffsets>
-              <option value="567" />
+              <option value="699" />
             </startOffsets>
             <endOffsets>
-              <option value="568" />
+              <option value="700" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Acudir.Test.Application/Handlers/GetAllPersonsHandler.cs</url>
+          <line>21</line>
+          <properties documentPath="C:\Users\aleja\OneDrive\Escritorio\Test Acudir\TEST-ACUDIR\Acudir.Test.Application\Handlers\GetAllPersonsHandler.cs" initialLine="21" containingFunctionPresentation="Method 'Handle'">
+            <startOffsets>
+              <option value="704" />
+            </startOffsets>
+            <endOffsets>
+              <option value="705" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

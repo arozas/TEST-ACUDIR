@@ -1,4 +1,5 @@
-﻿using Acudir.Test.Application.Responses;
+﻿using Acudir.Test.Application.Commands;
+using Acudir.Test.Application.Responses;
 using Acudir.Test.Core.Entities;
 using AutoMapper;
 
@@ -8,6 +9,9 @@ public class PersonMappingProfile : Profile
 {
     public PersonMappingProfile()
     {
-        CreateMap<Person, PersonResponse>().ReverseMap();
+        CreateMap<Person, PersonResponse>();
+        CreateMap<PersonResponse, Person>();
+        CreateMap<Person, CreatePersonCommand>();
+        CreateMap<CreatePersonCommand, Person>();
     }
 }

@@ -25,7 +25,7 @@ namespace Acudir.Test.Infrastructure.Repositories
 
         public async Task<IEnumerable<Person>> GetAll()
         {
-            return await _personContext.Persons.ToListAsync();
+            return await _personContext.Persons.Where(x => x.Active == true).ToListAsync();
         }
 
         public async Task<Person> Create(Person person)
@@ -61,7 +61,7 @@ namespace Acudir.Test.Infrastructure.Repositories
                 return false;
             }
 
-            _personContext.Persons.Remove(person);
+            person.Active = false;
             await _personContext.SaveChangesAsync();
             return true;
         }

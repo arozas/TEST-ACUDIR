@@ -19,7 +19,7 @@ namespace Acudir.Test.UnitTest
                 .UseInMemoryDatabase(databaseName: "TestDatabase")
                 .Options;
 
-            _context = new PersonContext(options);
+            _context = new PersonContext(options, "C:/Users/aleja/OneDrive/Escritorio/Test Acudir/TEST-ACUDIR/Acudir.Test.UnitTest/Test.json");
             _repository = new PersonRepository(_context);
 
             // Cargar datos iniciales si es necesario
@@ -30,11 +30,11 @@ namespace Acudir.Test.UnitTest
         public async Task GetPerson_ShouldGetPerson()
         {
             // Arrange
-            var person = await _repository.Get(1);
+            var person = await _repository.Get(3);
 
             // Assert
             Assert.IsNotNull(person);
-            Assert.AreEqual("Ramon Perez", person.NombreCompleto);
+            Assert.AreEqual("Pedro Franco", person.NombreCompleto);
             Assert.AreNotEqual("Rita Pavone", person.NombreCompleto);
         }
 
@@ -93,8 +93,9 @@ namespace Acudir.Test.UnitTest
         public async Task DeletePerson_ShouldRemovePerson()
         {
             // Act
-            var result = await _repository.Delete(1);
-            var person = await _repository.Get(1);
+            var result = await _repository.Delete(4);
+            var person = await _repository.Get(4);
+            _context.SaveChangesAsync();
 
             // Assert
             Assert.IsTrue(result);

@@ -1,6 +1,6 @@
 [
   {
-    "NombreCompleto": "Nombre Actualizado",
+    "NombreCompleto": "Ramon Perez",
     "Edad": 45,
     "Domicilio": "Av Segurola 1445",
     "Telefono": "4533542",
@@ -24,15 +24,6 @@
     "Telefono": "44565432",
     "Profesion": "Programador",
     "id": 3,
-    "Active": true
-  },
-  {
-    "NombreCompleto": "Nuevo Persona",
-    "Edad": 30,
-    "Domicilio": "Nueva Calle 123",
-    "Telefono": "12345678",
-    "Profesion": "Ingeniero",
-    "id": 4,
     "Active": true
   }
 ]

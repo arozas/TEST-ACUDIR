@@ -18,21 +18,21 @@ public class CreatePersonHandler : IRequestHandler<CreatePersonCommand, PersonRe
         _personRepository = personRepository;
     }
     
-    public Task<PersonResponse> Handle(CreatePersonCommand request, CancellationToken cancellationToken)
+    public async Task<PersonResponse> Handle(CreatePersonCommand request, CancellationToken cancellationToken)
     {
-        var person = _mapper.Map<Person>(request);
+        var person = LazyMapper.Mapper.Map<Person>(request);
         if (person is null)
         {
             throw new ApplicationException("Hay un problema al mapear una nueva persona.");
         }
 
-        var newPerson = _personRepository.Create(person);
+        var newPerson = await _personRepository.Create(person);
         var personResponse = LazyMapper.Mapper.Map<PersonResponse>(newPerson);
         
         if (personResponse is null)
         {
             throw new ApplicationException("Hay un problema al crear una nueva persona.");
         }
-        return Task.FromResult(personResponse);
+        return personResponse;
     }
 }
